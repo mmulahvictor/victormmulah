@@ -58,28 +58,34 @@ It documents Victor's full career journey, technical skills, active projects, pu
 
 ## Design System
 
+### Aesthetic Direction
+
+The portfolio uses a **glassmorphism / frosted-glass** design language inspired by the Devoryn workspace UI — translucent cards with blur, cyan glow accents, ambient orb backgrounds, and a floating app-like feel. It functions as a single-page application (SPA) with a persistent sidebar and section switching, closely mirroring a real-world product dashboard.
+
 ### Colour Palette
 
 | Variable | Hex | Usage |
 |---|---|---|
-| `--clay` | `#D4623A` | Primary accent, CTAs, headings |
-| `--accent` | `#E8673A` | Hover states |
-| `--ink` | `#161008` | Page background |
-| `--midnight` | `#0D1117` | Section backgrounds |
-| `--bone` | `#F5F0E8` | Primary text |
-| `--text-body` | `#D4C8A8` | Body paragraph text |
-| `--khaki-hi` | `#DDD0A8` | Labels, nav links |
-| `--gold` | `#D4A027` | Progress bar end, quote borders |
-| `--green-hi` | `#A8D4A9` | Open source section headings |
-| `--green-mid` | `#7BAD7C` | Open source labels, collab dots |
+| `--bg-deep` | `#070d1a` | Page background |
+| `--bg-mid` | `#0d1628` | Card inner backgrounds |
+| `--bg-card` | `rgba(255,255,255,0.055)` | Glass card surfaces |
+| `--cyan` | `#00D4FF` | Primary accent, active states, glows |
+| `--blue` | `#4A9EFF` | Secondary accent |
+| `--green` | `#00E5A0` | Success, open source |
+| `--orange` | `#FF8C42` | In-progress, mobile |
+| `--red` | `#FF5C7A` | Errors, alerts |
+| `--purple` | `#B06AFF` | Bootcamp, inclusion |
+| `--text-1` | `#F0F4FF` | Primary text |
+| `--text-2` | `#9AAFC8` | Body / secondary text |
+| `--text-3` | `#5A7290` | Muted labels |
+| `--glass-border` | `rgba(0,212,255,0.18)` | Card borders |
 
 ### Typography
 
 | Role | Font | Weight |
 |---|---|---|
-| Display / headings | Playfair Display | 700, 900, italic |
-| Labels / mono | Space Mono | 400, 700 |
-| Body text | Libre Baskerville | 400, italic |
+| All UI text | Outfit | 300, 400, 500, 600, 700, 800, 900 |
+| Code labels / mono | Space Mono | 400, 700 |
 
 All fonts loaded from Google Fonts via `<link>` preconnect.
 
@@ -221,10 +227,11 @@ Rename to `index.html`, upload via FTP/SFTP or your host's file manager. No serv
 
 | Version | Date | Changes |
 |---|---|---|
-| `1.0` | 2025 | Initial build — hero, about, timeline, skills, writing, open source, beyond, contact |
-| `1.1` | 2025 | Improved contrast ratios across all body text; pinned nav with glassmorphism; mobile hamburger |
-| `1.2` | 2025 | Added Projects section (GoLearn, Flutter app, Moodle+OnlyOffice, Scratch curriculum); expanded hobby grid; birthday chip; Character/Personality section |
-| `1.3` | 2025 | Scroll progress bar; back-to-top button; skip link; proper OG/meta tags; article cards as real links; HTML entity encoding; print stylesheet; fixed IntersectionObserver active-link bug |
+| `1.0` | 2025 | Initial build — editorial magazine aesthetic (clay/bone palette, Playfair Display) |
+| `1.1` | 2025 | Improved contrast ratios; pinned nav with glassmorphism; mobile hamburger |
+| `1.2` | 2025 | Added Projects section; expanded hobby grid; birthday chip; Character/Personality section |
+| `1.3` | 2025 | Scroll progress bar; back-to-top button; skip link; OG/meta tags; article links; print stylesheet |
+| `2.0` | 2025 | **Full redesign** — Glassmorphism/frosted-glass aesthetic inspired by Devoryn workspace UI. SPA architecture with persistent sidebar navigation. Cyan/blue glow accents. Ambient orb backgrounds. Donut charts, Gantt timeline, animated progress bars. Nine sections: Dashboard, About, Journey, Projects, Skills, Writing, Open Source, Beyond Code, Character, Contact |
 
 ---
 
